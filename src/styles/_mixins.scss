@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Mixin para pantallas menores a 1200px
+@mixin responsive-lg {
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin responsive-34 {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+// Mixin para pantallas menores a 992px
+@mixin responsive-md {
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+// Mixin para pantallas menores a 768px
+@mixin responsive-sm {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+// Mixin para pantallas menores a 480px
+@mixin responsive-xs {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+// Mixin para pantallas menores a 320px
+@mixin responsive-xxs {
+    @media only screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+// Mixin para títulos con Poppins
+@mixin fontTitle() {
+    font-family: 'Poppins', sans-serif;
+}
+  
+  // Mixin para cuerpo de texto con Inter
+@mixin fontBody() {
+    font-family: 'Inter', sans-serif;
+}

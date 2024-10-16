@@ -1,0 +1,51 @@
+# Dependencias de node
+node_modules/
+.pnp/
+.pnp.js
+
+# Salida de compilación
+.next/
+out/
+build/
+
+# Logs y reportes de depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de lock específicos de paquetes
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Directorios del entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Directorios de pruebas y cobertura
+coverage/
+*.lcov
+
+# Cache
+.cache/
+.next/cache/
+
+# Archivos de configuración del editor de código
+.vscode/
+.idea/
+
+# Archivos de MacOS
+.DS_Store
+
+# Otros archivos generados por el sistema
+Thumbs.db
+
+# Archivos de configuración específicos de despliegue (opcional, según lo necesites)
+firebase-debug.log
+*.pem
+*.key
+*.crt
